@@ -1,2 +1,4 @@
-package com.jwt.secure.model;public record LoginRequest() {
+package com.jwt.secure.model;
+
+public record LoginRequest() {
 }
