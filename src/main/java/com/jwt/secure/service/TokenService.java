@@ -13,6 +13,7 @@ public class TokenService {
     public TokenService(JwtEncoder encoder) {
         this.encoder = encoder;
     }
+    
 
     public String generateToken(Neo4jProperties.Authentication authentication) {
         Instant now = Instant.now();
